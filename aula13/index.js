@@ -1,5 +1,4 @@
                  
-let umaString = 'O rato roeu a roupa do rei de roma.';
+let umaString = 'Erick David Silva.';
 
-console.log(umaString.toUpperCase());
-console.log(umaString.toLowerCase())
+console.log(umaString.slice(-6, -1));
