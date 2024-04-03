@@ -10,7 +10,7 @@ console.log('seg', data.getSeconds());
 console.log('ms', data.getMilliseconds());
 console.log('Dia semana', data.getDay());  0 é domingo e 6 é sabado
 console.log(data.toString());
-console.log(Date.now());  mostra os milesimos de segundo desde o marco 0 da data */
+console.log(Date.now());  mostra os milesimos de segundo desde o marco 0 da data que é 1º de Janeiro de 1970 */
 
 function zeroAEsquerda(num) {
     return num >= 10 ? num : `0${num}`
