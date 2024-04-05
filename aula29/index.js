@@ -29,7 +29,7 @@ switch (diaSemana){
 }
 const data = new Date('2000-09-012 00:00:00');
 const diaSemana = data.getDay();
-const diaSemanaText = getDiaSemanaTexto(diaSemana);
+const diaSemanaText = getDiaSemanaTexto(diaSemanaText);
 
 
 console.log(diaSemana, diaSemanaText);
