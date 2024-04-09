@@ -1,4 +1,4 @@
-
+/* 
 function getDiaSemanaTexto (diaSemana) { 
     let diaSemanaTexto;
     switch (diaSemana){
@@ -89,4 +89,7 @@ function criaData (data) {
 const text = document.querySelector('main h1');
 const data = new Date();
 
-text.innerHTML = criaData(data);
+text.innerHTML = criaData(data); */
+
+const text = document.querySelector('main h1');
+const data = new Date();
