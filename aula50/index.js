@@ -1,7 +1,11 @@
 function funcao(operador, acumulador, ...numeros){
     for (let numero of numeros){
-        if(operador === '+') acumulador += numeros;
+        if(operador === '+') acumulador += numero;
+        if(operador === '-') acumulador -= numero;
+        if(operador === '*') acumulador *= numero;
+        if(operador === '/') acumulador /= numero;
     }
+    
     console.log(acumulador);
 }
 funcao('+', 1, 10, 20, 30, 40);
