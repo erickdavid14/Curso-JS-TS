@@ -1,4 +1,4 @@
-function funcao(operador, acumulador, ...numeros){
+/* function funcao(operador, acumulador, ...numeros){
     for (let numero of numeros){
         if(operador === '+') acumulador += numero;
         if(operador === '-') acumulador -= numero;
@@ -9,16 +9,16 @@ function funcao(operador, acumulador, ...numeros){
     console.log(acumulador);
 }
 funcao('+', 1, 10, 20, 30, 40);
-
+ */
 
 
 
 // atribuiçao via desistruturação 
-/* function funcao([nome, sobrenome, idade]){
+function funcao([nome, sobrenome, idade]){
     console.log(nome, sobrenome, idade);
 }
 let aray = ['Erick', 'David', 23];
-funcao(aray); */
+funcao(aray);
 
 
 // para usar um valor padrao no parametro =
