@@ -5,7 +5,7 @@ const numeros = conta(25, 25)
 console.log(numeros); */
 
 // FizzBuzz
-const resultado = fizzBuzz(22);
+const resultado = fizzBuzz(12);
 console.log(resultado);
 
 function fizzBuzz(entrada){
