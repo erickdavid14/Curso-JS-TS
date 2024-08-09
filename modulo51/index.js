@@ -1,4 +1,4 @@
-function criaMultiplicador(multiplicador){
+ function criaMultiplicador(multiplicador){
     return function(n){
         return n * multiplicador;
     };
@@ -10,7 +10,7 @@ const quadriplica = criaMultiplicador(4);
 
 console.log(duplica(2));
 console.log(triplica(5));
-console.log(quadriplica(10));
+console.log(quadriplica(10)); 
 
 
 
