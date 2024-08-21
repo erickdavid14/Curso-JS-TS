@@ -8,3 +8,4 @@ const funcao = retornaFuncao('erick');
 const funcao2 = retornaFuncao('david');
 
 console.log(funcao(), funcao2());
+
