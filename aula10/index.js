@@ -6,4 +6,3 @@ console.log(`Eu ${nome} ${(num1 + num2)} maçãs`);
 num2 = '45'
 
 console.log(`Eu ${nome} ${num2} maçãs`)
-
